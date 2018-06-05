@@ -1,8 +1,8 @@
 require 'json'
 
 run -> (env) {
-  status = 200
+  status = 201
   headers = {'Content-Type' => 'application/json'}
-  body = {'message' => 'Hello world'}.to_json
+  body = {}.to_json
   [status, headers, [body]]
 }

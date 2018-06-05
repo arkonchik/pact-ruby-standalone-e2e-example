@@ -10,15 +10,14 @@
       "description": "foo",
       "request": {
         "method": "GET",
-        "path": "/foo"
+        "path": "/hello"
       },
       "response": {
-        "status": 200,
+        "status": 201,
         "headers": {
           "Content-Type": "application/json"
         },
         "body": {
-          "message": "Hello world"
         }
       }
     }

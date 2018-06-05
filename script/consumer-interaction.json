@@ -1,16 +1,15 @@
 {
   "description": "foo",
   "request": {
-    "path": "/foo",
-    "method": "GET"
+    "method": "GET",
+    "path": "/hello"
   },
   "response": {
-    "status": 200,
+    "status": 201,
     "headers": {
       "Content-Type": "application/json"
     },
     "body": {
-      "message": "Hello world"
     }
   }
 }

@@ -1,0 +1,6 @@
+# Logfile created on 2018-06-05 11:25:17 +0300 by logger.rb/47272
+I, [2018-06-05T11:25:17.237361 #3316]  INFO -- : Running example 'Verifying a pact between Foo and Bar Foo with GET /hello returns a response which has status code 201'
+I, [2018-06-05T11:25:17.237452 #3316]  INFO -- : Sending GET request to path: "/hello" with headers: {}, see debug logs for body
+D, [2018-06-05T11:25:17.237476 #3316] DEBUG -- : body :
+I, [2018-06-05T11:25:17.262398 #3316]  INFO -- : Received response with status: 201, headers: {"Content-Type"=>"application/json", "Server"=>"WEBrick/1.3.1 (Ruby/2.2.2/2015-04-13)", "Date"=>"Tue, 05 Jun 2018 08:25:17 GMT", "Connection"=>"Keep-Alive", "Content-Length"=>"2"}, see debug logs for body
+D, [2018-06-05T11:25:17.262480 #3316] DEBUG -- : body: {}

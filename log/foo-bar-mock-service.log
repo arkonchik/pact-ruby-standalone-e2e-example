@@ -1,0 +1,41 @@
+I, [2018-06-05T11:25:15.863851 #3274]  INFO -- : Cleared interactions before example ""
+I, [2018-06-05T11:25:15.875103 #3274]  INFO -- : Registered expected interaction GET /hello
+D, [2018-06-05T11:25:15.875384 #3274] DEBUG -- : {
+  "description": "foo",
+  "request": {
+    "method": "GET",
+    "path": "/hello"
+  },
+  "response": {
+    "status": 201,
+    "headers": {
+      "Content-Type": "application/json"
+    },
+    "body": {
+    }
+  }
+}
+I, [2018-06-05T11:25:15.888206 #3274]  INFO -- : Received request GET /hello
+D, [2018-06-05T11:25:15.888436 #3274] DEBUG -- : {
+  "path": "/hello",
+  "query": "",
+  "method": "get",
+  "headers": {
+    "Host": "localhost:1234",
+    "User-Agent": "curl/7.47.0",
+    "Accept": "*/*",
+    "Version": "HTTP/1.1"
+  }
+}
+I, [2018-06-05T11:25:15.888732 #3274]  INFO -- : Found matching response for GET /hello
+D, [2018-06-05T11:25:15.888869 #3274] DEBUG -- : {
+  "status": 201,
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "body": {
+  }
+}
+I, [2018-06-05T11:25:15.905836 #3274]  INFO -- : Verifying - interactions matched for example ""
+I, [2018-06-05T11:25:15.930825 #3274]  INFO -- : Writing pact with details {:consumer=>{:name=>"Foo"}, :provider=>{:name=>"Bar"}}
+I, [2018-06-05T11:25:15.931116 #3274]  INFO -- : Writing pact for Bar to ./pacts/foo-bar.json
